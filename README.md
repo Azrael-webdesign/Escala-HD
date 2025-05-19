@@ -1,73 +1,98 @@
-# Welcome to your Lovable project
 
-## Project info
+# 📅 Escala Colaborativa Hub
 
-**URL**: https://lovable.dev/projects/d4e09cd4-692e-4300-bef7-b18f7ba47103
+**Sistema Web para Gestão de Escalas de Trabalho**
 
-## How can I edit this code?
+Este projeto foi desenvolvido para facilitar o controle de jornadas, folgas e turnos de colaboradores de forma visual, flexível e eficiente. Mantido por **Christian Mendes**, o sistema oferece uma interface moderna, responsiva e de fácil utilização tanto para administradores quanto para colaboradores.
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## 🔗 Repositório
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/d4e09cd4-692e-4300-bef7-b18f7ba47103) and start prompting.
+Este repositório contém todo o código-fonte da aplicação, incluindo front-end, componentes reutilizáveis, gerenciamento de estado e configuração do ambiente.
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## 🧰 Tecnologias Utilizadas
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+| Tecnologia     | Descrição                                              |
+|----------------|--------------------------------------------------------|
+| **Vite**       | Empacotador moderno e rápido para aplicações web       |
+| **React**      | Biblioteca para construção de interfaces reativas      |
+| **TypeScript** | Superset de JavaScript com tipagem estática            |
+| **shadcn/ui**  | Componentes de UI acessíveis e personalizáveis         |
+| **Tailwind CSS** | Framework utilitário para estilização via classes   |
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+## ✏️ Como editar e executar o projeto
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Você pode editar este projeto localmente em qualquer editor de código de sua preferência (ex: VSCode).
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+> Requisitos: [Node.js](https://nodejs.org/) e npm instalados. Recomenda-se usar via [nvm](https://github.com/nvm-sh/nvm) para facilitar a gestão de versões.
 
-# Step 3: Install the necessary dependencies.
-npm i
+### 📦 Passo a passo para rodar localmente:
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+```bash
+# 1. Clone o repositório
+git clone <URL_DO_REPOSITORIO>
+
+# 2. Acesse o diretório do projeto
+cd escala-colaborativa-hub-main
+
+# 3. Instale as dependências
+npm install
+
+# 4. Inicie o servidor de desenvolvimento
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 🚀 Deploy
 
-**Use GitHub Codespaces**
+Você pode realizar o deploy do projeto usando qualquer plataforma compatível com projetos React/Vite, como:
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+- [Vercel](https://vercel.com/)
+- [Netlify](https://netlify.com/)
+- [Render](https://render.com/)
+- Servidores próprios (Nginx, Apache)
 
-## What technologies are used for this project?
+Basta realizar o build com:
 
-This project is built with:
+```bash
+npm run build
+```
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+E hospedar a pasta `/dist`.
 
-## How can I deploy this project?
+---
 
-Simply open [Lovable](https://lovable.dev/projects/d4e09cd4-692e-4300-bef7-b18f7ba47103) and click on Share -> Publish.
+## 🌐 Domínio Personalizado (opcional)
 
-## Can I connect a custom domain to my Lovable project?
+Se você for publicar em um domínio próprio, configure o CNAME e redirecionamento de acordo com as instruções da plataforma de hospedagem que escolher.
 
-Yes, you can!
+---
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## 👨‍💻 Autor e Manutenção
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Este projeto é mantido por:
+
+**Christian Mendes**  
+Desenvolvedor Front-End & Gestor de Produto  
+📧 christian.mendes@exemplo.com
+
+---
+
+## 📬 Suporte
+
+Para dúvidas, sugestões ou feedback:
+
+- Crie uma **issue** neste repositório
+- Ou entre em contato diretamente por e-mail
+
+---
+
+## 📄 Licença
+
+Este projeto está licenciado sob os termos da [MIT License](LICENSE).
